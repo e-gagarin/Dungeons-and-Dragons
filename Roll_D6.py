@@ -5,5 +5,5 @@ def roll_six_sided_die():
       return random.randint(1, 6)
 
 result = roll_six_sided_die()
-print(f"You rolled a {result}!"
+print(f"You rolled a {result})!"
       
