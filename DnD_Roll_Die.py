@@ -8,3 +8,6 @@ def roll_die(sides):
 
   #Do the roll
   return random.randint(1, sides)
+
+print(roll_die(6))   # should give 1–6
+print(roll_die(20))  # should give 1–20
